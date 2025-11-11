@@ -1,0 +1,138 @@
+* {
+margin:;
+padding:
+}
+
+body {
+    line-height: 1.2;
+    background-color: rgb(243, 146, 146);
+    color: rgb(42, 42, 79);
+    padding: 10px;
+}
+
+header {
+    background: #aac8e7;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+    display: flex;
+    justify-content: center
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color:#768915;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px 0;
+    background: #0c0c0b;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+h2 {
+    color:#aac8e7
+}
+
+h3 {
+    color:aliceblue 
+}
+
+ol li{
+    font-size: 25px;
+    color: rgb(8, 0, 255)
+}
+
+ul li{
+    font-size: 20px;
+    color: aliceblue
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    border-color: rgb(8, 15, 117);
+    border-style: solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: rgb(245, 230, 230)
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: rgb(172, 167, 167);
+    color: rgb(53, 53, 148)
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    color: white
+}
+
+form input, form textarea, form button{
+    padding: 10px;
+    border: 1px solid red
+}
+
+button:hover {
+    background: red
+}
+
+button {
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 1px;
+    background: url(https://w7.pngwing.com/pngs/552/611/png-transparent-blue-ribbon-footer-design-page-thumbnail.png);
+    border-radius: 6px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
